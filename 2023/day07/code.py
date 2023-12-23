@@ -128,7 +128,7 @@ def getTieBreakerRanking(hand, isPart1):
     return [cardRank[card] for card in hand]
 
 
-filepath = 'C:\\code\\local\\aoc23\\day7\\data.txt'
+filepath = r'data.txt'
 
 handBids = []
 for line in open(filepath).readlines():

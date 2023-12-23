@@ -1,10 +1,9 @@
 # Standard Imports
 from timeit import default_timer as timer
 from datetime import timedelta
-import re
 
 # Problem Imports
-import math
+from itertools import combinations
 
 # Start Timing
 startTime = timer()
@@ -23,9 +22,16 @@ def printProblemPartResult(part, result):
 # Problem solving
 # # # # # # # # #
 
-testFilePath = 'C:\\code\\local\\aoc23\\dayX\\test-data.txt'
-filepath = 'C:\\code\\local\\aoc23\\dayX\\data.txt'
-fileContent = open(filepath).read()
+testFilePath = r'test-data.txt'
+filepath = r'data.txt'
+fileContent = open(filepath).read().strip()
+
+spaceGrid = [[x for x in line.strip()] for line in fileContent.split('\n')]
+
+xLen = len(spaceGrid[0])
+yLen = len(spaceGrid)
+
+print(xLen, yLen)
 
 # Part 1
 

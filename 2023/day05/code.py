@@ -3,7 +3,7 @@ from datetime import timedelta
 import sys
 
 startTime = timer()
-filepath = 'C:\\code\\local\\aoc23\\day5\\data.txt'
+filepath = r'data.txt'
 seedsString, *mappingsString = open(filepath).read().split('\n\n')
 seeds = list(map(int, seedsString.split()[1:]))
 

@@ -61,7 +61,7 @@ try:
     partNumberPattern = r'\d+'
     partNumberRegex = re.compile(partNumberPattern)
 
-    filepath = 'C:\\code\\local\\aoc23\\day3\\data.txt'
+    filepath = r'data.txt'
     with open(filepath) as file:
         for i, line in enumerate(file):
             lineRangesGears = []

@@ -26,7 +26,7 @@ def printProblemPartResult(part, result):
 nodesPattern = r'[A-Z]{3}'
 nodesRegex = re.compile(nodesPattern)
 
-filepath = 'C:\\code\\local\\aoc23\\day8\\data.txt'
+filepath = r'data.txt'
 file = open(filepath)
 
 instructions = []

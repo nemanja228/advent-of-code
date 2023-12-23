@@ -109,7 +109,7 @@ def adjustPathDistances(path):
     return path[:midPointIndex] + [(n[0], pathLen - n[1]) for n in path[midPointIndex:]]
 
 
-filepath = 'C:\\code\\local\\aoc23\\day10\\data.txt'
+filepath = r'data.txt'
 fileContent = open(filepath)
 
 # grid[x][y] = [tile, visitedFrom]

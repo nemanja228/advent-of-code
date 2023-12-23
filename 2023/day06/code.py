@@ -49,7 +49,7 @@ def solve_quadratic(a, b, c):
     x2 = (-b - math.sqrt(d)) / 2*a
     return (x1, x2)
 
-filepath = 'C:\\code\\local\\aoc23\\day6\\data.txt'
+filepath = r'data.txt'
 timesString, distancesString, *empty = open(filepath).read().split('\n')
 
 timeStrings = re.findall('\\d+', timesString)

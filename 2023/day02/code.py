@@ -63,7 +63,7 @@ try:
     gameIdSum = 0
     setPowerSum = 0
     
-    filepath = 'C:\\code\\local\\aoc23\\day2\\data.txt'
+    filepath = r'data.txt'
     with open(filepath) as file:
         for line in file:
             parsedGame = Game.parse(line)

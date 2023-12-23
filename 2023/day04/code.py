@@ -56,7 +56,7 @@ try:
     cardValueSum = 0
     cards = {}
 
-    filepath = 'C:\\code\\local\\aoc23\\day4\\data.txt'
+    filepath = r'data.txt'
     with open(filepath) as file:
         for line in file:
             parsedCard = Card.parse(line)

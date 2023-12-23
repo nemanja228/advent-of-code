@@ -52,7 +52,7 @@ def process(sequence):
     return (first - nextFirst, last + nextLast)
 
 
-filepath = 'C:\\code\\local\\aoc23\\day9\\data.txt'
+filepath = r'data.txt'
 fileContent = open(filepath)
 
 previousValuesSum = 0
