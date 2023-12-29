@@ -8,7 +8,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "cwd": "C:\\code\\local\\advent-of-code\\2023\\day13"
+            "cwd": "C:\\code\\local\\advent-of-code\\2023\\day14"
         }
     ]
 }
